@@ -1,8 +1,0 @@
-name: Televizer
-version: '${project.version}'
-main: xyz.restedwickeddev.televizer.Televizer
-api-version: 1.19
-prefix: Televizer
-authors: [ RestedWicked ]
-description: Enrich your livestreaming experience with Televizer, reward your viewers for watching your streams.
-website: restedwickeddev.xyz
