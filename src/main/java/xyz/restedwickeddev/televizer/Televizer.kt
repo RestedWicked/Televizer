@@ -6,14 +6,8 @@ import org.bukkit.plugin.java.JavaPlugin
 class Televizer : JavaPlugin() {
     override fun onEnable() {
         // Plugin startup logic
+        println(logo())
         logger.info("${ChatColor.GREEN}Enabled ${this.name}")
-        logger.info("${ChatColor.DARK_AQUA}______${ChatColor.LIGHT_PURPLE}___________")
-        logger.info("${ChatColor.DARK_AQUA}|     \\${ChatColor.LIGHT_PURPLE}         /")
-        logger.info("${ChatColor.DARK_AQUA}|      \\${ChatColor.LIGHT_PURPLE}       /")
-        logger.info("${ChatColor.DARK_AQUA}|     /${ChatColor.LIGHT_PURPLE}       /")
-        logger.info("${ChatColor.DARK_AQUA}|     \\${ChatColor.LIGHT_PURPLE}  /\\  /")
-        logger.info("${ChatColor.DARK_AQUA}|______\\${ChatColor.LIGHT_PURPLE}/  \\/")
-        logger.info("${ChatColor.DARK_AQUA}Wicked was here!")
     }
 
     override fun onDisable() {
