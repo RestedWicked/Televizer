@@ -1,0 +1,8 @@
+name: Televizer
+version: '${project.version}'
+main: xyz.restedwickeddev.televizer.Televizer
+api-version: 1.19
+prefix: Televizer
+authors: [ RestedWicked ]
+description: Enrich the livestream experience of your viewers with this plugin
+website: restedwickeddev.xyz
